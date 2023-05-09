@@ -1,0 +1,38 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.seller-auth{
+
+}
+
+.common-form{
+display: flex;
+flex-direction: column;
+width: 300px;
+margin: auto;
+
+}
+.form-input{
+height: 35px;
+margin-bottom: 20px;
+border: 1px solid rgb(171, 171, 154);
+padding-left: 50px;
+color: blue;
+border-radius: 20px;
+}
+.form-button{
+    height: 35px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(171, 171, 154);
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.form-button:hover{
+    background-color:white;
+    color:  blueviolet; 
+}
